@@ -1,7 +1,8 @@
-def saluta(nome):
-    return f"Ciao, {nome}!"
+def saluta(saluto, nome):
+    return f"{saluto}, {nome}!"
 
-print(saluta("Mondo"))
+print(saluta("Hello", "World"))
 
 def arrivederci(nome): 
     return f"Arrivederci, {nome}!"
+
